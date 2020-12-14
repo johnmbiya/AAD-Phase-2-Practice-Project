@@ -71,7 +71,7 @@ class SkillIQFragment : Fragment() {
 
                 }
 
-            }
+
 
             override fun onFailure(call: Call<List<SkillIQLearnersResponse>>, t: Throwable) {
                 tvIqName!!.text = t.message

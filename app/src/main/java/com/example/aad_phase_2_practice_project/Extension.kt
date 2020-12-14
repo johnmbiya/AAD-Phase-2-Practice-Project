@@ -6,8 +6,7 @@ import android.view.ViewGroup
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-val BaseUrl = "https://gadsapi.herokuapp.com/"
-val HamletBaseUrl = "https://hamlet.payfill.co/api/"
+val BaseUrl = "https://v13.immordc.net/"
 val getRetrofit = Retrofit.Builder()
     .baseUrl(BaseUrl)
     .addConverterFactory(GsonConverterFactory.create())
